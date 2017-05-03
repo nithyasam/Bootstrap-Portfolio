@@ -16,8 +16,6 @@ body{
 .mainheader{
 	border-bottom: 2px solid #cccccc;
 	background-color: #ffffff;
-	animation-name: animationColor;
-    animation-duration: 4s;
 	height: auto;
 }
 .navbar-header{
@@ -35,12 +33,9 @@ body{
 }
 
 .wrapper{
-	/*clear: both;*/
-	/*margin-top: 100px;*/
 	margin: auto;
 	width: 100%;
 	height: 100%;
-	/*height: 530px;*/
 }
 
 #connectMe{
@@ -49,7 +44,8 @@ body{
 	height:auto;
 	background-color: #ffffff;
 	padding: 30px;
-	
+	animation-name: animationColor;
+    animation-duration: 6s;
 }
 #connectMe h2{
 	text-align: center;
@@ -167,7 +163,10 @@ footer{
 	text-align: center;
 	border-top: 8px solid #4aaaa5;
 }
+
+/*--- Animation to change background color of connectMe---*/
+
 @keyframes animationColor {
     from {background-color: #ffffff;}
-    to {background-color: #eeccff;}
+    to {background-color: #ffff4d;}
 }
